@@ -1,0 +1,35 @@
+*{
+    margin: 0; padding: 0;
+}
+
+div{
+    display: block;
+}
+
+.rectangle{
+    background-color: #cbcbcb;
+    width: 400px; height: 200px;
+    position: absolute;
+    top: 50%;left: 50%;
+    margin: -100px 0 0 -200px;
+    overflow: hidden;
+}
+
+.circle{
+    width: 100px; height: 100px;
+    border-radius:50%;
+    background-color: #fdcb01;
+    position: absolute;
+}
+
+.left{
+    top:-50px;
+    left:-50px;
+}
+
+.right{
+    bottom:-50px;
+    right:-50px;
+}
+
+

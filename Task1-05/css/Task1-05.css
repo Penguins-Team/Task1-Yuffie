@@ -1,0 +1,224 @@
+body,div,p,a,img,li,ul,nav,h1,h2,h3,h4,figure,section,table,input,label{margin:0; padding:0;text-decoration: none;}
+
+body{
+    font-family:"Microsoft Yahei";
+    background-color: #c2c2c2;
+}
+.top{
+    width:100%;
+    background-color: #333333;
+    height:60px;
+}
+
+.top-logo{
+    height:60px;
+}
+
+.top-img{
+    height:60px;
+    position: absolute;
+    left: 20px;
+}
+
+.top-ul{
+    float: right;
+    position:absolute;
+    right:0;
+    top:0;
+    height:60px;
+}
+
+nav li a{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+nav li{
+    line-height:60px;
+    width:auto;
+    float: left;
+    margin-right: 30px;
+    white-space: nowrap;
+}
+p{
+    text-indent:2em
+}
+h2{
+    font-size: 24px;
+    padding: 14px 0;
+}
+
+h3{
+    color: #858585;
+    font-size: 18px;
+    padding: 8px 0;
+}
+
+h4{
+    color: #858585;
+    font-weight:lighter;
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+section{
+    margin:20px 400px 0 20px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow:4px 4px 5px #888888;
+    width: auto;
+}
+.sectionlast{
+    display: block;
+    width: 320px; height: 460px;
+    margin:20px 20px 20px 20px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow:4px 4px 5px #888888;
+    float:right;
+    position: absolute;
+    top:60px; right:0;
+}
+
+section ul{
+    text-indent:2em;
+    list-style:none;
+}
+
+figure{
+    border: 1px solid #888;
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+    height:150px;
+    margin:20px;
+    float:left;
+}
+
+section figure div{
+    text-align: center;
+    text-indent:0;
+    font-size:14px;
+    margin: 10px;
+}
+
+section figure img{
+    width:90%;
+    text-align: center;
+}
+
+.table1{
+    width:100%;
+    border:1px solid #888888;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    text-align:left;
+    font-size:14px;
+    color:#333333;
+}
+
+.table1 th{
+    font-size:14px;
+    border:1px solid #888888;
+    padding: 3px;
+}
+
+.table1 thead{
+    color:#ffffff;
+    background-color: #2f2f2f;
+}
+
+.table1 tbody th {
+    color:#000;
+    background-color: #ffffff;
+    font-weight:normal;
+}
+
+.table1 tfoot{
+    color:#000;
+    background-color: #bfbfbf;
+}
+
+ .formTitle {
+    line-height: 1.5;
+    padding: 6px 0 6px 15px;
+    border-left: 3px solid #ccc;
+    color: #000;
+    font-size: 17px;
+}
+
+.users-info div{
+    margin-top: 10px;
+}
+
+.users-info label {
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+    font-size:14px;
+}
+
+.users-info p{
+    font-size:14px;
+    margin-left:40%;
+    padding:5px 0 5px 14px;
+    text-indent:0;
+    color:#858585;
+}
+
+.users-info input{
+    vertical-align:middle;
+    text-align: start;
+    height:20px;
+    margin: 0;padding: 0;
+}
+.users-info span{
+    font-size:14px;
+}
+.users-info textarea{
+    width: 50%;
+    height: 100px;
+    vertical-align:top;
+}
+
+.users-info button{
+    width:320px;
+    padding: 6px 6px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #3355cf;
+    position: absolute;
+    bottom:20px;
+    right:20px;
+}
+
+footer {
+    margin-top:20px ;
+    width: 100%;
+    height: 70px;
+    background: #000;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size:12px;
+}
+
+.clearfloat{
+    clear: both;
+}
