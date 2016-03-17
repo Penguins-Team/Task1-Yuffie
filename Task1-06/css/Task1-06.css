@@ -1,0 +1,137 @@
+*{margin: 0;  padding: 0;}
+
+body{
+    background-color: #bfbfbf;
+}
+
+div{
+    display: block;
+}
+
+.all{
+    width: 892px; height: 1386px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 44px;
+}
+
+.top{
+    width: 892px; height: 61px;
+    border-bottom:2px solid #938e80;
+    font-family:"黑体";
+    font-size: 12px;
+    position: relative;
+}
+
+.top-left{
+    width: 110px; height: 61px;
+    background-color: #d55d5c;
+}
+
+.top-left p{
+    color:#ffffff;
+    position: absolute;
+    top:37px;
+    z-index: 10;
+    margin: 6px;
+
+}
+
+.top-right{
+    color: #d45d5c;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    padding-bottom: 3px;
+}
+.block-a{
+    margin: 34px 0;
+    width: 892px; height: 301px;
+    position: absolute;
+}
+
+.block-a-left{
+    width: 641px; height: 301px;
+    position: absolute;
+}
+
+.a-left-green{
+    width: 191px; height: 301px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.a-left-red{
+    width: 191px; height: 301px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+.block-a-right{
+    float:right;
+    width: 203px; height: 301px;
+    margin-right: 2px;
+    border-top:2px solid #cc8091;
+    font-family: "Microsoft YaHei";
+}
+
+.a-right-a{
+    color: #000000;
+    font-size: 24px;
+    text-decoration:underline;
+    font-variant: small-caps;
+}
+
+.a-right-b{
+    color: #676767;
+    font-size: 12px;
+    font-family: "楷体";
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.a-right-c{
+    color: #75b86b;
+    font-size: 116px;
+    font-style: italic;
+    margin: -7px -16px;
+}
+
+.a-right-d{
+    width: 203px;
+}
+
+.a-right-d1{
+    color: #cc8091;
+    font-size: 55px;
+    width: 80px;
+    float:left;
+}
+
+.a-right-d2{
+    margin-top: 19px;
+    float:left;
+}
+
+.a-right-db{
+    color: #cc8091;
+    font-size: 21px;
+}
+
+.a-right-dc{
+    color: #b6b6b7;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+.clearfloat{
+    clear: both;
+}
