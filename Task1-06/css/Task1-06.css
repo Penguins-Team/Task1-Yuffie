@@ -4,7 +4,7 @@ body{
     background-color: #bfbfbf;
 }
 
-div{
+div,section{
     display: block;
 }
 
@@ -47,7 +47,7 @@ div{
 .block-a{
     margin: 34px 0;
     width: 892px; height: 301px;
-    position: absolute;
+    position: relative;
 }
 
 .block-a-left{
@@ -125,12 +125,86 @@ div{
     font-size: 12px;
 }
 
+.block-b{
+    width: 641px; height:239px;
+    position: relative;
+}
+
+.b-left{
+    width:230px;
+    float:left;
+}
+
+.b-center{
+    width:230px;
+    float:left;
+    margin:0 10px;
+}
+
+.b-right{
+    width: 150px;
+    float:left;
+}
+
+.block-b label{
+    font-size:16px;
+    font-family: "Microsoft Yahei";
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.b-left label{
+    color:#418c59;
+}
+
+.b-center label{
+    color:#d2994f;
+}
+
+.b-right label{
+    color:#cc7680;
+}
+
+.block-b  p{
+    font-size: 12px;
+    font-family: "宋体";
+    line-height: 16px;
+}
+
+.block-b ul{
+    font-size:12px;
+    font-family: "Microsoft Yahei";
+}
+
+.block-b li{
+    margin-left: 5px;
+}
+
+.block-b span{
+    color:#cd4a48;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.block-c{
+    width: 892px; height: 653px;
+    background-color: #75b86b;
+    position: relative;
+}
+
+.block-c-left{
+
+}
+
+.block-c-right{
+
+}
 
 
-
-
-
-
+.bottom{
+    width: 892px; height: 61px;
+    border-top: 1px solid #938e8c;
+}
 
 .clearfloat{
     clear: both;
