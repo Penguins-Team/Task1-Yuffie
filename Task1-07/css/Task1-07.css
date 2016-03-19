@@ -1,0 +1,227 @@
+*{margin: 0;  padding: 0;}
+
+div{display: block;}
+a{text-decoration: none}
+
+header{
+    width: 100%; height: 57px;
+    min-width:1280px;
+    margin: 0 auto;
+    background-color: #fdfdfe;
+}
+.header{
+    width: 1150px; height: 57px;
+    margin: 0 auto;
+}
+
+.new-world{
+    float: left;
+    height: 31px;
+    margin: 13px 0 13px;
+    color:#3C3C3C;
+    font:21px/1 黑体;
+    line-height: 31px;
+}
+
+.new-world img{
+    float: left;
+    width: 31px; height: 31px;
+    margin-right: 10px;
+}
+
+.login{
+    float: right;
+    height: 17px;
+    margin: 0 0 5px 0;
+    padding: 18px 10px;
+    color:#e74f4d;
+    font:14px/1'Microsoft YaHei';
+    line-height: 17px;
+}
+
+.login img{
+    float: left;
+    width: 14px; height: 17px;
+    margin-right:5px;
+}
+
+nav{
+    height: 57px; width: 500px;
+    float: right;
+}
+
+
+header ul{
+    height: 57px;
+    list-style:none;
+}
+
+header li{
+    padding: 0 20px;
+    margin-bottom:5px;
+    line-height: 53px;
+    float:left;
+}
+
+header li a{
+    color:#787b83;
+    font:14px/1'Microsoft YaHei';
+ }
+
+.home{
+    height: 53px;
+    padding: 0 20px;
+    border-bottom: 4px #e74f4d solid;
+    font:14px/1'Microsoft YaHei';
+    line-height: 53px;
+    float:left;
+}
+
+.home a{
+    color:#e74f4d;
+}
+
+.warpper{
+    width: 1280px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.banner{
+    width: 1280px;
+    height: 854px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(http://i.niupic.com/images/2016/03/19/ZQkBel.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.banner-text{
+    padding: 232px 0 198px 115px;
+    background: rgba(0, 0, 0, 0.3);
+    color:#ffffff;
+}
+
+.banner-text h2{
+    font: 60px/1 'Microsoft YaHei';
+    padding-bottom:16px;
+}
+
+.banner-text p{
+    font: 21px/1.31 'Microsoft YaHei';
+    padding-bottom:65px;
+}
+
+.banner-text div{
+    width: 331px; height: 65px;
+    background-color: #e74f4d;
+    font: 30px/1 'Microsoft YaHei';
+    line-height: 65px;
+    text-align: center;
+}
+
+.section-one{
+    width: 1280px; height: 250px;
+    margin: -164px auto 0 auto;
+    overflow: hidden;
+    background-color:#ffffff;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.section-one div{
+    float:left;
+    width: 320px;
+}
+
+.section-one img{
+    width: 42px; height: 42px;
+    margin: 45px 139px;
+}
+
+.section-one p{
+    width: 320px; height: 51px;
+    color:#767777;
+    font: 14px/1 'Microsoft YaHei';
+    line-height: 120%;
+    text-align: center;
+    border-right: 2px solid #767777;
+}
+
+.section-two{
+    width:1280px; height: 360px;
+    margin: 0 auto;
+    overflow:hidden;
+    background-color: #ededec;
+    background-size:100% 100%;
+    position: relative;
+}
+
+.section-two img{
+    width: 92px; height: 92px;
+    margin: 88px 594px 50px 594px;
+}
+
+.section-two p{
+    opacity: 0.5;
+    color:#323333;
+    font: 54px/1 'Microsoft YaHei';
+    text-align: center;
+}
+
+.section-three{
+    width:1280px; height: 340px;
+    margin: 0 auto;
+    overflow:hidden;
+    background: url(http://i.niupic.com/images/2016/03/20/Wp1TMU.jpg) no-repeat;
+    background-size:100% 100%;
+    position: relative;
+}
+
+.section-three h2{
+    color:#ffffff;
+    font: 21px/2 'Microsoft YaHei';
+    text-align: center;
+    margin-top: 50px;
+}
+
+.line{
+    border: 1px solid #FFFFFF;
+    width: 30px;
+    margin: 10px 625px;
+}
+
+.section-three p{
+    color:#ffffff;
+    font: 12px/1.5 'Microsoft YaHei';
+    text-align: center;
+}
+
+
+
+
+
+
+.clearfloat{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
